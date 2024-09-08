@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.dark{
+    background-color: #1F2937;
+    color: white;
+}
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
