@@ -13,6 +13,7 @@ body{
     align-items: center;
 }
 
+
 .header{ 
     width: 75%;
     margin-top: 1em;
@@ -51,6 +52,20 @@ body{
     justify-content: center;
     align-items: center;
 }
+.carroussel{
+    display: flex;
+    gap: 50px;
+}
+h2{
+font-weight: 900px;
+color: #1F2937;
+font-size: 36px;
+}
+.grey{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
 button{
     background-color: #3882F6;
     color: #F9FAF8;
@@ -58,4 +73,22 @@ button{
     padding: 1em;
     border-radius: 1em;
     border-style: none;
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carroussel div {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+}
+.illustration{
+    border: #3882F6 solid 4px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    
 }
