@@ -15,7 +15,7 @@ body{
 
 
 .header{ 
-    width: 75%;
+    width: 1080px;
     margin-top: 1em;
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ body{
     gap: 1em;
 }
 .hero{
-    width: 75%;
+    width: 1080px;
     display: flex;
     margin: 5em 0;
     gap: 2em;
@@ -45,7 +45,7 @@ body{
 }
 .placeholder{
     
-    width: 50%;
+    width: 500px;
     height: 200px;
     background-color: #919191;
     display: flex;
@@ -61,11 +61,7 @@ font-weight: 900px;
 color: #1F2937;
 font-size: 36px;
 }
-.grey{
-    background-color: #E5E7EB;
-    display: flex;
-    align-items: center;
-}
+
 button{
     background-color: #3882F6;
     color: #F9FAF8;
@@ -91,4 +87,25 @@ button{
     height: 200px;
     width: 200px;
     
+}
+.grey{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.quote{
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    margin-bottom: 0;
+    align-self: center;
+    width: 950px;
+}
+h3{
+    align-self: center;
+    text-align: end;
+    margin-top: 0;
+    width: 950px;
 }
