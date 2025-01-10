@@ -112,10 +112,15 @@ h3{
 }
 .blue{
     background-color: #3882F6;
-    padding: 25px 150px;
+    padding: 25px 100px;
     color: white;
     border-radius: 10px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
 .blue button{
     border: 2px solid white;
+    height: 50px;
+    padding: 0 30px;
 }
